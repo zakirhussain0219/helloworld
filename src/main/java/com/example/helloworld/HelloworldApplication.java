@@ -11,7 +11,7 @@ public class HelloworldApplication {
 
 	@GetMapping("/hello")
 	public String message() {
-		return "Welcome to Azure Devops pipelines";
+		return "Welcome to Azure Devops pipelinesand deploy";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(HelloworldApplication.class, args);
